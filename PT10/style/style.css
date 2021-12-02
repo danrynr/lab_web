@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.form {
+    background-color: #39a8db;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+sup {
+    color: red;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+input {
+    height: 50px;
+    width: 90%;
+    margin: 10px 0px 10px 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    margin: 10px 0px 10px 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    padding: 20px 40px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+button:hover {
+    transition: .5s;
+    opacity: 70%;
+}
+
+#cancel {
+    background-color: #ff1100;
+}
+
+#submit {
+    background-color: #8dff0b;
+}

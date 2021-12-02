@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Invoice</title>
+        <link rel="stylesheet" href="./style/style.css">
+
+        <style>
+            body {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="invoice-formatting">
+            <div class="flex-container1">
+                <!--LEFT FIELD-->
+                <div id="flex1">
+                    <table id="table-A">
+                        <tr>
+                            <td><h1 class="company-name">PT Jaya Besakih</h1></td>
+                        </tr>
+                        <tr><td>Jl. Raya Sudirman no. 150</td></tr>
+                        <tr><td>Jakarta, 10220</td></tr>
+                        <tr><td>Phone: 021-889-7000</td></tr>
+                        <tr><td>Fax: 021-888-7000</td></tr>
+                        <tr><td>Website: jayabesakih.com</td></tr>
+                    </table>
+                </div>
+                <!--RIGHT FIELD-->
+                <div id="flex2">
+                    <img src="./assets/invoiceeee.jpg"><br>
+                    <table id="table-1">
+                        <tr>
+                            <td id="rw">DATE</td>
+                            <td class="border-1">23/9/2021</td>
+                        </tr>
+                        <tr>
+                            <td id="rw">INVOICE #</td>
+                            <td class="border-1">468482</td>
+                        </tr>
+                        <tr>
+                            <td id="rw">CUSTOMER ID</td>
+                            <td class="border-1">465</td>
+                        </tr>
+                        <tr>
+                            <td id="rw">DUE DATE</td>
+                            <td class="border-1" id="cell-color">30/9/2021</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!--BILL TO-->
+            <table id="table-2">
+                <tr class="header-table">
+                    <th id="rq" class="hh">BILL TO</td>
+                </tr>
+                <tr>
+                    <td id="rq">Daniel Reynard</td>
+                </tr>
+                <tr>
+                    <td id="rq">PT Jaya Besakih</td>
+                </tr>
+                <tr>
+                    <td id="rq">Jl. Raya Sudirman no. 150</td>
+                </tr>
+                <tr>
+                    <td id="rq">Jakarta, 10220</td>
+                </tr>
+                <tr>
+                    <td id="rq">084675921355</td>
+                </tr>
+            </table>
+            <!--FORM-->
+            <div class="form">
+                <table id="table-3">
+                    <tr class="header-table">
+                        <th id="desc">DESCRIPTION</th>
+                        <th id="taxed">TAXED</th>
+                        <th id="amount">AMOUNT</th>
+                    </tr>
+                    <tr>
+                        <td id="rq">[Service Fee]</td>
+                        <td id="col2"></td>
+                        <td id="col3">230.00</td>
+                    </tr>
+                    <tr class="col-center">
+                        <td id="rq">Labor: 5 hours at $75/hr</td>
+                        <td id="col2"></td>
+                        <td id="col3">375.00</td>
+                    </tr class>
+                    <tr>
+                        <td id="rq">[Parts]</td>
+                        <td id="col2">X</td>
+                        <td id="col3">345.00</td>
+                    </tr>
+                    <tr>
+                        <td id="rq">[Assurance]</td>
+                        <td id="col2"></td>
+                        <td id="col3">545.00</td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>
+                    <tr>
+                        <td id="rq">&nbsp;</td>
+                        <td id="col2"></td>
+                        <td id="col3"></td>
+                    </tr>   
+                </table>
+            </div>
+
+            <div>
+                <!--OTHER COMMENTS-->
+                <div class="comments">
+                    <table id="table-4">
+                        <tr>
+                            <td id="lengthdd" colspan="2" rowspan="2"></td>
+                            <td id="col-qc">Subtotal</td>
+                            <td id="col-q">1495</td>
+                        </tr>
+                        <tr>
+                            <td>Taxable</td>
+                            <td id="col-q">345.00</td>
+                            
+                        </tr>
+                        <tr>
+                            <th id="lengthddd" class="header-table bor-bot">OTHER COMMENTS</th>
+                            <td rowspan="7">&nbsp;</td>
+                            <td>Tax rate</td>
+                            <td id="col-q" class="col-sq">6.250%</td>
+                        </tr>
+                        <tr>
+                            <td id="bor-bot">1. Total payment due in 7 days</td>
+                            <td>Tax due</td>
+                            <td id="col-q">21.56</td>
+                            
+                        </tr>
+                        <tr>
+                            <td id="bor-bot">2. Please include the invoice number on your check</td>
+                            <td>Other</td>
+                            <td id="col-c" class="col-sq">-</td>
+                        </tr>
+                        <tr>
+                            <td id="bor-bot">&nbsp;</td>
+                            <td class="bb-line">TOTAL</td>
+                            <td id="col-q" class="bb-line total-color"><a id="currency">$</a>1516.56</td>
+                        </tr>
+                        <tr>
+                            <td id="bor-bot">&nbsp;</td>
+                            <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td id="bor-bot1" colspan="1" rowspan="2">&nbsp;</td>
+                            <td id="center-msg" colspan="2">Make all checks payable to</td>
+                        </tr>
+                        <tr>
+                            <td id="center-msg" colspan="2">PT Jaya Bekasih</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">&nbsp;</td>
+                        </tr>
+                    </table>
+                    <div class="footer">
+                        <h3>If you have any questions about this invoice, please contact</h3>
+                        <h3>Sam, 021-454-32424, sam-invoice@support.com</h3>
+                        <h2><i>Thank You For Your Business!</i></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+

@@ -1,0 +1,219 @@
+body .invoice-formatting {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: sans-serif;
+    empty-cells: initial;
+}
+
+/*Global Settings*/
+.table {
+    border-collapse: collapse;
+}
+
+.header-table {
+    background-color: #3032a7;
+    color: white;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.flex-container1 > div {
+    padding: 10px 0px 0px 10px; 
+}
+
+/*company logo*/
+#flex2 > img {
+    float: right;
+    padding: 10px 8px 20px 0px;
+    height: 40px;
+}
+
+#flex2 > table {
+    float: right;
+}
+
+/*top left table*/
+h1, .company-name {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* top right table*/
+#table-1 {
+    border-collapse: collapse;
+}
+
+#rw {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.border-1 {
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+}
+
+#cell-color {
+    background-color: #c9e8fc;
+}
+
+/*Bill table*/
+#table-2{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+}
+
+.hh {
+    text-align: left;
+    border-collapse: 1px solid black;
+    color: white;
+    width: 370px;
+}
+
+#rq {
+    padding-left: 10px;
+}
+
+/*Form table*/
+.form {
+    margin-top: 20px;
+    display: flex;  
+}
+
+#table-3 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    overflow: auto;
+    width: 100%;
+}
+
+/*form header width for form table*/
+#desc {
+    width: 70%;
+}
+
+#taxed {
+    width: 15%;
+}
+
+#amount {
+    width: 15%;
+}
+
+/*form cell settings for form table*/
+.col-center {
+    text-align: left;
+}
+
+#col2 {
+    text-align: center;
+    border-left: 1px solid black;
+}
+
+#col3 {
+    text-align: right;
+    padding-right: 6px;
+    border-left: 1px solid black;
+}
+
+#table-3 tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+/*comments and total table*/
+/*global*/
+#table-4 {
+    border-collapse: collapse;
+    overflow: auto;
+    width: 100%;
+}
+
+
+#lengthd {
+    width: 800px;
+}
+
+#lengthdd {
+    width: 700px;
+    text-align: left;
+}
+
+#lengthddd {
+    width: 50%;
+    text-align: left;
+}
+
+#col-qc {
+    width: 15%;
+}
+
+#col-q {
+    text-align: right;
+    width: 15%;
+    padding-right: 6px;
+}
+
+#col-c {
+    text-align: center;
+    padding-right: 6px;
+}
+
+#currency {
+    padding-left: 10px;
+    float: left;
+}
+
+.col-sq {
+    border: 1px solid black;
+}
+
+.bb-line {
+    border-top: 4px double black;
+}
+
+.total-color {
+    background-color: #c9e8fc;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#center-msg {
+    text-align: center;
+}
+
+.footer {
+    line-height: 5px;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.bor-bot {
+    padding-left: 10px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#bor-bot {
+    padding-left: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#bor-bot1 {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

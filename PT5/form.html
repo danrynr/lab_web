@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <head>
+        <title>Latihan Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="flex-container">
+                <div id="flex-left">
+                    <img src="./assets/clipart1933564.png">
+                </div>
+                <div id="flex-right">
+                    <p><b>Tentang Kami</b></p>
+                    <input id="search-bar" class="fas fa-search" type="text" placeholder="Search">
+                </div>
+            </div>   
+        </header>
+
+        <hr id="line">
+        <!--Navigation-->
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="off">Tentang Kami</a></li>
+                <li><a href="#" class="off">Berita</a></li>
+                <li><a href="#" class="off">Hubungi Kami</a></li>
+            </ul>   
+        </nav>
+        <!--Group of section-->
+        <div class="form-container">
+            <aside id="one">    
+                <p id="xd">Menu 1</p>
+                <p id="xd">Menu 2</p>
+            </aside>
+            <section id="two">
+                <form action="">
+                    <h4>Praktikum Sesi-5 (Kalbis)</h4>
+                    <hr>
+                    <label for="recipient"><p>Recipient:</p></label>
+                    <input type="text" id="recipient" placeholder="Elon"><br>
+                    <label for="message"><p>Message:</p></label>
+                    <textarea id="message" placeholder="Fill your message here.."></textarea>
+                    <label for="category"><p>Service Category</p></label>
+                    <select name="Program" id="category">
+                        <option value="food">Biotech</option>
+                        <option value="eco">Economy</option>
+                        <option value="bio">Food</option>
+                        <option value="res">Resources</option>
+                    </select><br><br><br>
+                    <div class="btn">
+                        <button class="form-btn" id="close">Close</button>
+                        <button class="form-btn" id="save">Save changes</button>
+                    </div>
+                </form>
+            </section>
+            <div class="side-container" id="three">
+                <section id="upper">
+                    <div>
+                        <p id="xd">Home</p>
+                        <p id="xd">Menu 1</p>
+                        <p id="xd">Menu 2</p>
+                        <p id="xd">Menu 3</p>
+                    </div>
+                </section>
+                <section id="lower">
+                    <div>
+                        <p id="xd">External Links</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

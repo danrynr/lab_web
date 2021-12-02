@@ -1,0 +1,44 @@
+body {
+    background-color: #732D2D;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.boxex {
+    margin: 100px;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-basis: 100%;
+}
+.flex-container > div {
+    background-color: #C4C4C4;
+    margin: 10px;
+    padding: 2px 20px;
+    border: 2px solid;
+}
+
+.one {
+    flex-grow: 3;
+}
+
+.two {
+    flex-grow: 7;
+}
+
+.paragraph {
+    background-color: #C4C4C4;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid;
+    height: 400px;
+}
+
+.paragraph, #title {
+    text-indent: 0px;
+}
+
+.paragraph, #par {
+    text-indent: 50px;
+    text-align: justify;
+}

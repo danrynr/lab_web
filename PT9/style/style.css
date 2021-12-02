@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+}
+
+button:hover {
+    transition: .5s;
+    background-color: rgb(28, 161, 117);
+    color: rgb(255, 255, 255);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+tr, td, th {
+    border: 2px solid #1c4444;
+    padding: 10px 20px 10px 20px;
+}
+
+td {
+    text-align: right;
+}
+
+#itemname {
+    text-align: left;
+}
+
+th {
+    background-color: #bee62f;
+    ;
+}
+
+#footer {
+    padding-top: 50px;
+}

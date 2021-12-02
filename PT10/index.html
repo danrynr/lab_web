@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Praktikum Pertemuan 10 Web Dasar</title>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <div class="form">
+            <form name="myForm" id="reset" onsubmit="return checkForm()" method="post" novalidate>
+                <table>
+                    <tr>
+                        <td><label>From<sup>*</sup></label></td>
+                        <td><input type="email" name="from" id="email"> <br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Subject<sup>*</sup></label></td>
+                        <td><input type="text" name="subject" id="text">
+                            <br></td>
+                    </tr>
+                    <tr>
+                        <td><label>To<sup>*</sup></label></td>
+                        <td><input type="email" name="to" id="email">
+                            <br></td>
+                    </tr>
+                    <tr>
+                        <td><label>CC<sup>*</sup></label></td>
+                        <td><input type="email" name="cc" id="email">
+                            <br></td>
+                    </tr>
+                    <tr>
+                        <td><label>BCC<sup>*</sup></label></td>
+                        <td><input type="email" name="bcc" id="email">
+                            <br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Pesan<sup>*</sup></label></td>
+                        <td><textarea name="message" id="" cols="30" rows="10"></textarea> <br></td>
+                    </tr>
+                </table>
+            </form>
+
+            <button id="cancel" onclick="clearForm()">Batal</button>
+            <button id="submit" onclick="checkForm()" >Simpan</button>
+        </div>
+        
+        <script src="./js/script.js"></script>
+    </body>
+</html>

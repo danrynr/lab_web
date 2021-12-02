@@ -1,0 +1,170 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+/*flex for top bar*/
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #befde0;
+}
+
+.flex-container img {
+    width: 4em;
+}
+
+#flex-left {
+    padding: 15px 0px 5px 20px;
+}
+
+hr {
+    margin: 0px;
+    border-top: 2px solid;
+}
+
+#flex-right {
+    padding: 0px 20px 10px 0px;
+}
+
+#flex-right p {
+    font-size: 12px;
+    text-align: right;
+    padding: 5px 0px 5px 0px;
+}
+
+input[id="search-bar"] {
+    box-sizing: border-box;
+    border: 4px solid #71a7c9;
+    border-radius: 6px;
+    margin-top: 50px;
+    padding: 5px 10px 5px 10px;
+    width: 200px;
+    background-image: url(https://www.vhv.rs/dpng/d/592-5929003_search-button-magnifying-glass-logo-png-transparent-png.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right;
+}
+
+/*flex for nav*/
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 12px 12px 0px 12px;
+    background-color: #74f0b6;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 18px 30px 18px 30px;
+    display: block;
+    color: #000000;
+    text-align: center;
+}
+
+.off:hover {
+    transition: 0.8s;
+    color: white;
+    background-color: #46ac7c;
+}
+
+nav .active  {
+    color: white;
+    background-color: #46ac7c;
+}
+
+/*flex for item*/
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 73vh;
+    flex-direction: column;
+}
+
+.form-container #xd {
+    padding: 0px 0px 0px 12px;
+}
+
+/*form settings*/
+
+.video {
+    padding: 0px 12px 12px 12px;
+}
+
+.child {
+    padding: 12px 0px 0px 12px;
+}
+
+.grup {
+    padding-left: 50px;
+}
+
+/*input field*/
+input[id="recipient"] {
+    box-sizing: border-box;
+    border: 4px solid #71a7c9;
+    border-radius: 6px;
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+}
+
+input:hover {
+    transition: 0.8s;
+    border: 4px solid #8034d6;
+}
+
+input:focus {
+    outline: none !important;
+    transition: 0.8s;
+    border: 4px solid #34d67d;
+}
+
+/*section global settings*/
+section {
+    background-color: rgb(198, 210, 235);
+    margin: 12px 12px 0px 0px;
+}
+
+aside {
+    background-color: rgb(198, 210, 235);
+    margin: 12px 12px 0px 0px;
+}
+
+/*horizontal flex of item*/
+#one {
+    margin-left: 12px;
+    flex-grow: 6;
+}
+
+#two {
+    flex-grow: 4;
+    height: auto;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #74f0b6;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    margin-bottom: 0px;
+}
