@@ -22,10 +22,8 @@ $(document).ready(function() {
 
 $(function() {
     $("form[name='myForm'").validate({
-        //errorClass: "error-class",
-        //validClass: "valid-class",
-
-
+        errorClass: "error fail-alert",
+        validClass: "valid success-alert",
         rules: {
             email: {
                 required: true,
@@ -40,7 +38,6 @@ $(function() {
             message: "Please enter a message"
         },
         submitHandler: function(form) {
-            //form.submit();
             alert("Success!");
             form.clear();
         }
